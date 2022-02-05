@@ -15,10 +15,10 @@ const AppRouter = (
           <Route exact path="/">
             <Home/>
           </Route>
-          : <Route exact path="/">
+          :
+          <Route exact path="/">
             <Auth/>
           </Route>
-
         }
       </Switch>
     </Router>
